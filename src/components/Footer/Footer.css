@@ -1,0 +1,143 @@
+.footer {
+  background-color: #fafafa;
+  display: flex;
+  gap: 50px;
+  padding: 5vw 4vw;
+  justify-content: center;
+  align-items: center;
+}
+
+.goal {
+  width: 400px;
+}
+
+.goal h1{
+  margin-bottom: 10px;
+}
+
+.goal p{
+  font-size: 17px;
+  color: #717270;
+}
+
+.footer-links {
+  display: flex;
+  gap: 45px;
+  margin-right: 40px;
+}
+
+.footer-links h3 {
+  margin-bottom: 15px;
+}
+
+.footer a {
+  text-decoration: none;
+  color: black;
+}
+
+.footer-links ul {
+  list-style: none;
+}
+
+.footer-links ul li {
+  margin-bottom: 10px;
+  padding: 5px 0;
+}
+
+.footer-links a{
+  position: relative;
+  padding-bottom: 3px;
+}
+
+.footer-links a::after {
+  content: "";
+  height: 2px;
+  width: 100%;
+  background-color: #1d1c1c;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  transform: scaleX(0);
+  transform-origin: bottom right;
+  transition: transform 0.2s ease-in-out;
+}
+
+.footer-links li a:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.btn-container ul {
+  display: flex;
+  gap: 10px;
+  padding: 10px;
+}
+
+.btn-container li {
+  background-color: rgb(255, 255, 255);
+  border: 1px solid #dadada;
+  padding: 15px 17px 10px 17px;
+  border-radius: 12px;
+  transition: transform 0.3s ease-in-out, padding 0.3s ease-in-out;
+}
+
+.touch {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  align-items: center;
+}
+
+.touch li a{
+  display: inline-block;
+}
+
+.touch h3 {
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.touch .btn-container {
+  margin-top: 20px;
+}
+
+.btn-container li:hover{
+    transform: translateY(-5px);
+  background-color: black;
+  /* padding-bottom: 5px; */
+}
+
+.btn-container li:hover a i {
+  color: white;
+}
+
+@media screen and (max-width:1190px){
+  .footer{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .goal{
+    margin: auto;
+    width: 100%;
+  }
+
+  .footer-links{
+    padding: 0px 20px;  
+    gap: ;
+    margin-right: 0px;
+  }
+
+  .touch{
+    margin-left: 0;
+  }
+
+}
+
+@media screen and (max-width: 488px) {
+  .footer-links{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+  }
+}

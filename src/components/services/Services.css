@@ -1,0 +1,128 @@
+.wrap-services {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fafafa;
+  margin: auto;
+  padding: 10vw 4vw;
+  width: 100%;
+}
+
+.services {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 100%;
+  gap: 80px;
+}
+
+.left-serv {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  padding: 20px;
+  text-align: justify;
+  justify-content: center;
+}
+
+.left-serv p i {
+  font-size: 15px;
+  color: blueviolet;
+}
+
+.left-serv h2 {
+  font-size: 2em;
+}
+
+.left-serv p {
+  font-size: 20px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); 
+  grid-template-rows: repeat(2, 1fr);
+  gap: 50px;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  /* max-width: 50%; */
+  /* width: 100% ; */
+}
+
+.service {
+  padding: 15px;
+  align-items: center;
+  border-radius: 8px;
+  margin: auto;
+  /* padding: 20px; */
+  border: none;
+  overflow: hidden;
+}
+
+.service h3 {
+  text-align: left;
+  font-size: 1.4em;
+}
+
+.service p {
+  font-size: 17px;
+  /* color: #8b8b8b; */
+  /* text-align: left; */
+  text-align: left;
+}
+
+@media screen and (max-width: 1150px){
+  .services {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    gap: 0;
+  }
+
+  .left-serv{
+    margin-bottom: 50px;
+  }
+
+  #extra-info{
+    text-align: center;
+  }
+  
+  .left-serv h2 {
+    text-align: center;
+  }
+
+  .grid-container{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    gap: 40px 80px;
+  }
+
+  .service{
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 840px) {
+  .services {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    /* background-color: #fafafa; */
+    width: 100%;
+  }
+
+  .grid-container {
+    grid-template-columns: 1fr; /* Single column for smaller screens */
+    grid-template-rows: auto;
+    padding: 0px;
+    width: 300px;
+  }
+
+}
