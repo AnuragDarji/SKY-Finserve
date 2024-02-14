@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/SKY-Finserve/static/css/main.6627c08f.css",
-    "main.js": "/SKY-Finserve/static/js/main.01d398ef.js",
+    "main.css": "/SKY-Finserve/static/css/main.181a73ab.css",
+    "main.js": "/SKY-Finserve/static/js/main.377c1ae0.js",
     "static/media/Asset 35_1@4x.png": "/SKY-Finserve/static/media/Asset 35_1@4x.3c4e767cad18779b7709.png",
     "index.html": "/SKY-Finserve/index.html",
-    "main.6627c08f.css.map": "/SKY-Finserve/static/css/main.6627c08f.css.map",
-    "main.01d398ef.js.map": "/SKY-Finserve/static/js/main.01d398ef.js.map"
+    "main.181a73ab.css.map": "/SKY-Finserve/static/css/main.181a73ab.css.map",
+    "main.377c1ae0.js.map": "/SKY-Finserve/static/js/main.377c1ae0.js.map"
   },
   "entrypoints": [
-    "static/css/main.6627c08f.css",
-    "static/js/main.01d398ef.js"
+    "static/css/main.181a73ab.css",
+    "static/js/main.377c1ae0.js"
   ]
 }
